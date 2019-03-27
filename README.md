@@ -26,7 +26,15 @@ A simply Vagrantfile for Docker, ELK stack & Grafana
 
 # 
 
+### Initial setup:
+
+    $ git clone https://github.com/Dgotlieb/Vagrant-Docker-ELK-Grafana.git 
+    $ cd Vagrant-Docker-ELK-Grafana
+    $ vagrant up
+    
+    
 ### How to use:
+ 
 ##### Elastic search: 
 
 Post some data to localhost 9200.
