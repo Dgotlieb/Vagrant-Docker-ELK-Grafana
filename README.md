@@ -60,7 +60,7 @@ for example:
  Send data over TCP to localhost:5000
  
  To make it easier, run send.py file:
-    
+    $ vagrant ssh
     $ Python send.py  
     
  #
