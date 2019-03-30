@@ -1,5 +1,5 @@
 # Vagrant Docker ELK Grafana
-A simply Vagrantfile for Docker, ELK stack & Grafana
+A simple Vagrantfile for Docker, ELK stack & Grafana
 
 ### Prerequesits:
 * Git
