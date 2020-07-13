@@ -99,6 +99,6 @@ Vagrant.configure("2") do |config|
 
 config.vm.provision "shell", privileged: true, run: 'always',  inline: <<-SHELL
      cd docker-elk
-     docker-compose up -d
+     docker-compose up --build -d
    SHELL
 end
