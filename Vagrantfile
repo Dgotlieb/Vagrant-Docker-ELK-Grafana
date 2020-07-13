@@ -76,12 +76,12 @@ Vagrant.configure("2") do |config|
   # documentation for more information about their specific syntax and use.
    config.vm.provision "shell", privileged: true, inline: <<-SHELL
      apt-get update
-     apt install apt-transport-https ca-certificates curl software-properties-common -y
+     yes | apt install apt-transport-https ca-certificates curl software-properties-common
 	 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add – 
      add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" 
      apt update
-     apt install docker-ce -y
-     apt install docker-compose -y
+     yes | apt install docker-ce
+     yes | apt install docker-compose
      git clone https://github.com/Dgotlieb/docker-elk.git 
    SHELL
 
